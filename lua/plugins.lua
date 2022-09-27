@@ -59,4 +59,7 @@ packer.startup(function(use)
   use 'nvim-telescope/telescope.nvim'
   use 'nvim-telescope/telescope-file-browser.nvim'
 
+  -- Web-tools
+  use 'ray-x/web-tools.nvim'
+
 end)

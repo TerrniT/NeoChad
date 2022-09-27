@@ -6,10 +6,9 @@ end
 
 
 shade.setup({
-  overlay_opacity = 66,
+  overlay_opacity = 45,
   opacity_step = 1,
   keys = {
-    brightness_up = '<C-Up>',
-    brightness_down = '<C-Down>'
+    toggle = '<C-Up>'
   }
 })

@@ -1,45 +1,47 @@
-vim.cmd("autocmd!")
+local v = vim
+
+v.cmd("autocmd!")
 -- Undercurl
-vim.cmd([[let &t_Cs = "\e[4:3m"]])
-vim.cmd([[let &t_Ce = "\e[4:0m"]])
+v.cmd([[let &t_Cs = "\e[4:3m"]])
+v.cmd([[let &t_Ce = "\e[4:0m"]])
 
-vim.wo.number = false 
+v.wo.number = false 
 
-vim.opt.cursorline = true
-vim.opt.termguicolors = true
-vim.opt.winblend = 0
-vim.opt.wildoptions = 'pum'
-vim.opt.pumblend = 5
-vim.opt.background = 'dark'
-vim.scriptencoding = 'utf-8'
-vim.opt.encoding = 'utf-8'
-vim.opt.fileencoding = 'utf-8'
+v.opt.cursorline = true
+v.opt.termguicolors = true
+v.opt.winblend = 0
+v.opt.wildoptions = 'pum'
+v.opt.pumblend = 5
+v.opt.background = 'dark'
+v.scriptencoding = 'utf-8'
+v.opt.encoding = 'utf-8'
+v.opt.fileencoding = 'utf-8'
 -- Add asterisks in block comments
-vim.opt.formatoptions:append { 'r' }
+v.opt.formatoptions:append { 'r' }
 
-vim.opt.title = true
-vim.opt.autoindent = true
-vim.opt.smartindent = true
-vim.opt.hlsearch = true
-vim.opt.backup = false
-vim.opt.showcmd = true
-vim.opt.cmdheight = 1
-vim.opt.laststatus = 2
-vim.opt.expandtab = true
-vim.opt.scrolloff = 10
-vim.opt.inccommand = 'split'
-vim.opt.ignorecase = true -- Case insensitive searching UNLESS /C or capital in search
-vim.opt.smarttab = true
-vim.opt.breakindent = true
-vim.opt.shiftwidth = 2
-vim.opt.tabstop = 2
-vim.opt.wrap = false -- No Wrap lines
-vim.opt.backspace = { 'start', 'eol', 'indent' }
-vim.opt.path:append { '**' } -- Finding files - Search down into subfolders
-vim.opt.wildignore:append { '*/node_modules/*' }
+v.opt.title = true
+v.opt.autoindent = true
+v.opt.smartindent = true
+v.opt.hlsearch = true
+v.opt.backup = false
+v.opt.showcmd = true
+v.opt.cmdheight = 1
+v.opt.laststatus = 2
+v.opt.expandtab = true
+v.opt.scrolloff = 10
+v.opt.inccommand = 'split'
+v.opt.ignorecase = true -- Case insensitive searching UNLESS /C or capital in search
+v.opt.smarttab = true
+v.opt.breakindent = true
+v.opt.shiftwidth = 2
+v.opt.tabstop = 2
+v.opt.wrap = false -- No wrap lines
+v.opt.backspace = { 'start', 'eol', 'indent' }
+v.opt.path:append { '**' } -- Finding files  
+v.opt.wildignore:append { '*/node_modules/*' }
 
 -- Turn off paste mode when leaving insert
-vim.api.nvim_create_autocmd("InsertLeave", {
+v.api.nvim_create_autocmd("InsertLeave", {
   pattern = '*',
   command = "set nopaste"
 })

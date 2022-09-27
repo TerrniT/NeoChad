@@ -1,7 +1,7 @@
 local v = vim
 local keyset = vim.keymap.set
 local opts = { silent = true, noremap = true, expr = true }
-
+--
 -- Highlight the symbol and its references when holding the cursor.
 v.api.nvim_create_augroup("CocGroup", {})
 v.api.nvim_create_autocmd("CursorHold", {
