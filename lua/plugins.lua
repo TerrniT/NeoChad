@@ -52,4 +52,8 @@ packer.startup(function(use)
   requires = "kyazdani42/nvim-web-devicons",
   }
 
+  -- Telescope
+  use 'nvim-telescope/telescope.nvim'
+  use 'nvim-telescope/telescope-file-browser.nvim'
+
 end)
