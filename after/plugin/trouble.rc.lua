@@ -14,5 +14,4 @@ trouble.setup {
 }
 
 vim.keymap.set("n", "gx", "<cmd>call coc#rpc#request('fillDiagnostics', [bufnr('%')])<CR><cmd>TroubleToggle loclist<CR>", { silent = true, noremap = true })
-vim.keymap.set("n", "gc", "<cmd>call coc#rpc#request('workspaceDiagnostics', [bufnr('%')])<CR><cmd>TroubleToggle quickfix<CR>", { silent = true, noremap = true })
 

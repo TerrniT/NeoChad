@@ -2,5 +2,6 @@
   "suggest.snippetsSupport": true,
   "snippets.loadFromExtensions": true,
   "snippets.loadVSCodeProjectSnippets": true,
-  "snippets.ultisnips.enable": true
+  "snippets.ultisnips.enable": true,
+  "coc.preferences.formatOnSaveFiletypes": ["lua", "html"]
 }
