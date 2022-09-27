@@ -46,6 +46,9 @@ packer.startup(function(use)
   -- Gitsigns
   use 'lewis6991/gitsigns.nvim'
 
+  -- Shade
+  use 'sunjon/shade.nvim'
+
   -- Trouble
   use {
   "folke/trouble.nvim",
