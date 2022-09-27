@@ -12,7 +12,7 @@ tree.setup({
   enable_diagnostics = true,
   window = {
     position = "right",
-    width = 25
+    width = 30
   }
 })
 

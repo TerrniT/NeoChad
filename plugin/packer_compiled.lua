@@ -139,10 +139,20 @@ _G.packer_plugins = {
     path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["trouble.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\trouble.nvim",
+    url = "https://github.com/folke/trouble.nvim"
+  },
   ["vim-wakatime"] = {
     loaded = true,
     path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-wakatime",
     url = "https://github.com/wakatime/vim-wakatime"
+  },
+  ["vscode-es7-javascript-react-snippets"] = {
+    loaded = true,
+    path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vscode-es7-javascript-react-snippets",
+    url = "https://github.com/dsznajder/vscode-es7-javascript-react-snippets"
   }
 }
 

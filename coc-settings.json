@@ -1,3 +1,5 @@
 {
- "suggest.snippetsSupport": true
+  "suggest.snippetsSupport": true,
+  "snippets.loadFromExtensions": true,
+  "snippets.loadVSCodeProjectSnippets": true
 }
