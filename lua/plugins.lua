@@ -62,4 +62,7 @@ packer.startup(function(use)
   -- Web-tools
   use 'ray-x/web-tools.nvim'
 
+  -- Dashboard
+  use 'glepnir/dashboard-nvim'
+
 end)

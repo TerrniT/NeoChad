@@ -7,8 +7,8 @@ k.set('n', 'x', '"_x')
 k.set('n', 'dw', 'vb"_d')
 
 -- Select all
-k.set('n', '<C-a>', 'gg<S-v>G')
 
+k.set('n', '<C-a>', 'gg<S-v>G')
 -- New tab
 k.set('n', 'te', ':tabedit<Return>', { silent = true })
 
