@@ -5,5 +5,5 @@ if (not status) then
 end
 
 
-browser.setup({
-})
+browser.setup({})
+

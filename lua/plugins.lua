@@ -1,4 +1,5 @@
 local status, packer = pcall(require, 'packer')
+local v = vim
 if (not status) then
   print("Packer is not installed")
   return
@@ -7,6 +8,7 @@ end
 vim.cmd [[packadd packer.nvim]]
 
 packer.startup(function(use)
+  --
   -- Packer itself
   use 'wbthomason/packer.nvim'
 
@@ -67,4 +69,5 @@ packer.startup(function(use)
 
   -- Terminal in neovim
   use {"akinsho/toggleterm.nvim", tag = '*' }
+
 end)

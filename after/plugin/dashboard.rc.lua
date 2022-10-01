@@ -1,3 +1,5 @@
+local k = vim.keymap
+local v = vim
 local status, dashboard = pcall(require, 'dashboard')
 if (not status) then
   print("Giga chad not involed")
@@ -5,16 +7,16 @@ if (not status) then
 end
 
 -- Set keymaps only when dashboard is active
-vim.api.nvim_create_autocmd('FileType', {
-  group = vim.api.nvim_create_augroup('DashboardMappings', { clear = true }),
+v.api.nvim_create_autocmd('FileType', {
+  group = v.api.nvim_create_augroup('DashboardMappings', { clear = true }),
   pattern = 'dashboard',
   callback = function()
-    vim.keymap.set('n', 'e', '<Cmd>DashboardNewFile<CR>', { buffer = true })
-    vim.keymap.set('n', 'q', '<Cmd>q!<CR>', { buffer = true })
+    k.set('n', 'e', '<Cmd>DashboardNewFile<CR>', { buffer = true })
+    k.set('n', 'q', '<Cmd>q!<CR>', { buffer = true })
   end,
 })
 
-vim.g.dashboard_default_executive = 'telescope'
+v.g.dashboard_default_executive = 'telescope'
 dashboard.hide_statusline = false
 dashboard.custom_header = {
     '',
@@ -69,7 +71,7 @@ dashboard.custom_center = {
       {icon = '  ',
       desc = 'Find  File                              ',
       action = 'Telescope find_files find_command=rg,--hidden,--files',
-      shortcut = 'SPC f f'},
+      shortcut = 's f'},
       {icon = '  ',
       desc ='File Browser                            ',
       action =  'Telescope file_browser',

@@ -14,24 +14,23 @@ toggleterm.setup{
     end
   end,
   open_mapping = [[<c-t>]],
-  hide_numbers = true, 
+  hide_numbers = true,
   shade_filetypes = {},
   shade_terminals = true,
   shading_factor = '1',
-  insert_mappings = true, 
+  insert_mappings = true,
   terminal_mappings = true,
   persist_size = true,
-  persist_mode = true, 
+  persist_mode = true,
   direction =  'horizontal',
-  close_on_exit = true, 
-  shell = "bash.exe", 
-  auto_scroll = true, 
+  close_on_exit = true,
+  shell = "pwsh.exe -nologo",
+  auto_scroll = true,
   winbar = {
     enabled = false,
-    name_formatter = function(term) 
+    name_formatter = function(term)
       return term.name
     end
   },
 }
 
-vim.api.nvim_set_keymap('n', '\\', ':ToggleTermToggleAll<Return>', { silent = true } )
