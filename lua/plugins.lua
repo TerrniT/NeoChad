@@ -1,18 +1,17 @@
-local v = vim
 local status, packer = pcall(require, 'packer')
 if (not status) then
   print("Packer is not installed")
   return
 end
 
-v.cmd [[packadd packer.nvim]]
+vim.cmd [[packadd packer.nvim]]
 
 packer.startup(function(use)
-  --
-  -- Packer itself
+
+  -- Packer
   use 'wbthomason/packer.nvim'
 
-  -- Theme
+  -- Theme plugins
   use 'sainnhe/everforest'
   use 'hoob3rt/lualine.nvim'
   use 'akinsho/nvim-bufferline.lua'
@@ -24,6 +23,9 @@ packer.startup(function(use)
 
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
+  use 'sunjon/shade.nvim' -- Shade
+  use { "folke/trouble.nvim", requires = "kyazdani42/nvim-web-devicons" } -- trouble.nvim
+  use 'lewis6991/gitsigns.nvim' -- Gitsigns
 
   -- Treesitter
   use {
@@ -43,18 +45,6 @@ packer.startup(function(use)
       "kyazdani42/nvim-web-devicons", -- not strictly required, but recommended
       "MunifTanjim/nui.nvim",
     }
-  }
-
-  -- Gitsigns
-  use 'lewis6991/gitsigns.nvim'
-
-  -- Shade
-  use 'sunjon/shade.nvim'
-
-  -- Trouble
-  use {
-  "folke/trouble.nvim",
-  requires = "kyazdani42/nvim-web-devicons",
   }
 
   -- Telescope
