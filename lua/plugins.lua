@@ -65,4 +65,6 @@ packer.startup(function(use)
   -- Dashboard
   use 'glepnir/dashboard-nvim'
 
+  -- Terminal in neovim
+  use {"akinsho/toggleterm.nvim", tag = '*' }
 end)
