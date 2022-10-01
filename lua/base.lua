@@ -1,5 +1,8 @@
 local v = vim
 
+-- Theme
+v.cmd([[colorscheme everforest]])
+
 v.cmd("autocmd!")
 
 -- Undercurl
