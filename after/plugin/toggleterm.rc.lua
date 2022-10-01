@@ -13,7 +13,7 @@ toggleterm.setup{
       return vim.o.columns * 0.4
     end
   end,
-  open_mapping = [[tt]],
+  open_mapping = [[\t]],
   hide_numbers = true, 
   shade_filetypes = {},
   shade_terminals = true,
@@ -29,9 +29,10 @@ toggleterm.setup{
   auto_scroll = true, 
   winbar = {
     enabled = false,
-    name_formatter = function(term) --  term: Terminal
+    name_formatter = function(term) 
       return term.name
     end
   },
 }
 
+vim.api.nvim_set_keymap('n', '\\', ':ToggleTermToggleAll<Return>', { silent = true } )
