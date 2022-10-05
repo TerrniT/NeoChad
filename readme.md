@@ -3,7 +3,7 @@
 
 ## Showcase
 
-![intro1](![image](https://user-images.githubusercontent.com/79077994/194115796-c3ce2450-14f9-4d3c-b408-2cf6885aa985.png)
+![Alt text](![image](https://user-images.githubusercontent.com/79077994/194115796-c3ce2450-14f9-4d3c-b408-2cf6885aa985.png)
 )
 ![info](![image](https://user-images.githubusercontent.com/79077994/194116019-74f23852-fc36-4e25-93b2-726f659c479a.png)
 )
