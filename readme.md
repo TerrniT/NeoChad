@@ -18,8 +18,9 @@
 
 
 ## How to install
-
-Make sure you have the release version of Neovim (0.7+).
+Ingredients: 
+  Neovim (+0.7)
+  Packer
 
 ### Linux/MacOS:
 
