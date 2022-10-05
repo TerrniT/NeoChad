@@ -2,18 +2,15 @@
 
 
 ## Showcase
+![main](https://user-images.githubusercontent.com/79077994/194121758-6455c0fe-187e-4657-b922-3f0c2a103573.png)
 
-![Alt text](![image](https://user-images.githubusercontent.com/79077994/194115796-c3ce2450-14f9-4d3c-b408-2cf6885aa985.png)
-)
-![info](![image](https://user-images.githubusercontent.com/79077994/194116019-74f23852-fc36-4e25-93b2-726f659c479a.png)
-)
+![diagnostics](https://user-images.githubusercontent.com/79077994/194121877-54efb560-5d42-4d00-8dff-07a277511112.png)
 
-![demo1](![image](https://user-images.githubusercontent.com/79077994/194116161-831ad1d2-81e3-48f6-b36e-2b16cf6f1c44.png)
-)
-![demo2](![image](https://user-images.githubusercontent.com/79077994/194116537-d26ab07c-b11f-45ae-a83c-46510ee3f4fd.png)
-)
-![demo3](![image](https://user-images.githubusercontent.com/79077994/194117147-75270152-376d-4b10-bd6b-55036470ea8e.png)
-)
+![terminal](https://user-images.githubusercontent.com/79077994/194121866-148f1707-69b5-4094-99d5-00bb4d72852d.png)
+
+![lsp-snippets](https://user-images.githubusercontent.com/79077994/194121853-33048e7e-3b1b-4287-964c-3667c843345e.png)
+
+![tree](https://user-images.githubusercontent.com/79077994/194121798-bf4104f8-7a30-4cb1-a87d-f6485a3691e4.png)
 
 ## Install In One Command!
 
