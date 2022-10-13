@@ -1,7 +1,7 @@
 local v = vim
 
 -- Theme
-v.cmd([[colorscheme everforest]])
+v.cmd([[colorscheme nightfox]])
 
 v.cmd("autocmd!")
 

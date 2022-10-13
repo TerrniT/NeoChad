@@ -3,5 +3,16 @@
   "snippets.loadFromExtensions": true,
   "snippets.loadVSCodeProjectSnippets": true,
   "snippets.ultisnips.enable": true,
-  "coc.preferences.formatOnSaveFiletypes": ["lua", "html"]
+  "coc.preferences.formatOnSaveFiletypes": [
+    "lua",
+    "html",
+    "javascript",
+    "typescript",
+    "json",
+    "typescriptreact",
+    "javascriptreact",
+    "typescript.tsx",
+    "grapql",
+    "css"
+  ]
 }

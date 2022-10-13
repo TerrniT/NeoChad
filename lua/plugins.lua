@@ -12,9 +12,10 @@ packer.startup(function(use)
   use 'wbthomason/packer.nvim'
 
   -- Theme plugins
-  use 'sainnhe/everforest'
+  -- use 'sainnhe/everforest'
   use 'hoob3rt/lualine.nvim'
   use 'akinsho/nvim-bufferline.lua'
+  use "EdenEast/nightfox.nvim"
 
   -- Util
   use 'wakatime/vim-wakatime'
@@ -59,5 +60,6 @@ packer.startup(function(use)
 
   -- Terminal in neovim
   use {"akinsho/toggleterm.nvim", tag = '*' }
+
 
 end)
