@@ -6,7 +6,7 @@ end
 
 lualine.setup {
   options = {
-    theme = 'nightfox'
+    theme = 'solarized'
   }
 }
 

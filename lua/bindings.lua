@@ -2,7 +2,7 @@ local k = vim.keymap
 local keyset = vim.keymap.set
 local api_keyset = vim.api.nvim_set_keymap
 local opts = { silent = true }
-
+--
 -- Do not yank with x
 k.set('n', 'x', '"_x')
 

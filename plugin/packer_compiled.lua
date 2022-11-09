@@ -79,10 +79,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
-  everforest = {
+  ["dashboard-nvim"] = {
     loaded = true,
-    path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\everforest",
-    url = "https://github.com/sainnhe/everforest"
+    path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dashboard-nvim",
+    url = "https://github.com/glepnir/dashboard-nvim"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
@@ -139,6 +139,31 @@ _G.packer_plugins = {
     path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["shade.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\shade.nvim",
+    url = "https://github.com/sunjon/shade.nvim"
+  },
+  ["solarized.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\solarized.nvim",
+    url = "https://github.com/maxmx03/solarized.nvim"
+  },
+  ["telescope-file-browser.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope-file-browser.nvim",
+    url = "https://github.com/nvim-telescope/telescope-file-browser.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["toggleterm.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
+  },
   ["trouble.nvim"] = {
     loaded = true,
     path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\trouble.nvim",
@@ -149,10 +174,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-wakatime",
     url = "https://github.com/wakatime/vim-wakatime"
   },
-  ["vscode-es7-javascript-react-snippets"] = {
+  ["web-tools.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vscode-es7-javascript-react-snippets",
-    url = "https://github.com/dsznajder/vscode-es7-javascript-react-snippets"
+    path = "C:\\Users\\super\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\web-tools.nvim",
+    url = "https://github.com/ray-x/web-tools.nvim"
   }
 }
 

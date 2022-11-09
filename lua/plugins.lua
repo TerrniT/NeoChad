@@ -15,7 +15,7 @@ packer.startup(function(use)
   -- use 'sainnhe/everforest'
   use 'hoob3rt/lualine.nvim'
   use 'akinsho/nvim-bufferline.lua'
-  use "EdenEast/nightfox.nvim"
+  use 'maxmx03/solarized.nvim'
 
   -- Util
   use 'wakatime/vim-wakatime'
@@ -31,11 +31,13 @@ packer.startup(function(use)
   -- Treesitter
   use {
     'nvim-treesitter/nvim-treesitter',
-    run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+   run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
   }
 
   -- Coc autocomplection
   use { 'neoclide/coc.nvim', branch = 'release' }
+  -- Coc tailwind
+  use 'iamcco/coc-tailwindcss'
 
   -- Neo tree
   use {
@@ -60,6 +62,5 @@ packer.startup(function(use)
 
   -- Terminal in neovim
   use {"akinsho/toggleterm.nvim", tag = '*' }
-
 
 end)

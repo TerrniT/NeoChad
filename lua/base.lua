@@ -1,8 +1,5 @@
 local v = vim
 
--- Theme
-v.cmd([[colorscheme nightfox]])
-
 v.cmd("autocmd!")
 
 -- Undercurl
