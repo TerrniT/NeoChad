@@ -13,39 +13,19 @@
 ## Terminal In Neovim
 ![terminal](https://user-images.githubusercontent.com/79077994/194121866-148f1707-69b5-4094-99d5-00bb4d72852d.png)
 
-
-
-
-
-## How to install
-Ingredients: 
-  Neovim (+0.7)
-  Packer
-
-### Linux/MacOS:
-
-```bash
-Some command
-```
-
-### Windows (Powershell 7+):
-
-```powershell
-Some command
-```
+## Ingredients
+  - Neovim (+0.7)
+  - Packer
 
 ### Update the plugins
 
-`:PackerUpdate`
-
-## Resources
-
-- [YouTube]()
-
-- [Discord]()
+```bash
+:PackerUpdate
+```
 
 <div align="center" id="madewithlua">
 
 [![Lua](https://img.shields.io/badge/Made%20with%20Lua-blue.svg?style=for-the-badge&logo=lua)](#madewithlua)
 
 </div>
+
